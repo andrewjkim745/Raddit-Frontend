@@ -1,0 +1,12 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    background-color: #01A7C2;
+}
+.raccoon {
+    margin-left: 10px;
+}
+.app-name {
+    margin-left: 10px;
+    color: #EAEBED;
+}

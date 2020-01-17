@@ -1,0 +1,71 @@
+.post-container {
+    display: flex;
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    width: 70%;
+    height: 80%;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A3BAC3;
+    z-index: 1;
+    animation: fadeInOpacity;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-duration: .1s;
+    height: 100vh;
+}
+
+
+.votes-container {
+    display: flex;
+    align-items: center;
+    border-right: .5px solid grey;
+    width: 10%;
+}
+
+.votes {
+    margin: 0 auto;
+}
+
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.post-image {
+    width: 80%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: .7rem;
+    color: grey;
+}
+
+.bottom-container {
+    width: 100%;
+    border-top: solid;
+    color: grey;
+
+}
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
